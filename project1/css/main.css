@@ -12,7 +12,7 @@ ul {
   list-style: none;
 }
 
-.best .best-card, .banner .banner-btn, .nav {
+.pricing .pricing-card, .best .best-card, .banner .banner-btn, .nav {
   backdrop-filter: blur(5px) saturate(71%);
   -webkit-backdrop-filter: blur(5px) saturate(71%);
   background-color: rgba(11, 58, 233, 0.33);
@@ -119,4 +119,54 @@ ul {
   background-color: rgba(85, 0, 85, 0.4);
   border-radius: 25px;
   border: none;
+}
+
+.pricing {
+  padding: 14px 10px;
+}
+.pricing .pricing-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.pricing .pricing-card {
+  text-align: center;
+  width: fit-content;
+  padding: 25px;
+  color: white;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.pricing .pricing-card:hover {
+  background-color: white;
+  color: rgb(33, 33, 33);
+  transform: translatey(-20px);
+}
+.pricing .pricing-card .text {
+  color: white;
+  font-size: 30px;
+}
+.pricing .pricing-card .text2 {
+  font-size: 30px;
+  color: white;
+}
+.pricing .pricing-card .text3 {
+  color: white;
+}
+.pricing .card-btn {
+  width: 100%;
+  background-color: red;
+  padding: 5px;
+  margin-top: 10px;
+}
+.pricing .wyrownaj {
+  text-align: start;
+  margin: 0;
+  font-size: 30px;
+}
+.pricing .wyrownaj1 {
+  text-align: start;
+  margin: 0;
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */
